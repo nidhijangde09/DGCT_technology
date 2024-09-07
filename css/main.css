@@ -294,10 +294,11 @@ a:focus {
 }
 
 /* header{border-bottom:5px solid #ccc;} */
+
 .logo {
     position: relative;
     bottom: 30px;
-    margin-left: 20px;
+    margin-left: 40px;
     width: 70px;
     border-radius: 14px;
 }
@@ -307,18 +308,18 @@ a:focus {
     list-style: none;
     margin: 10px 0;
     font-size: 18px;
-
+    position: relative;
 }
 
 .tour-dropdown {
-    width: 80%;
+    width: 100%;
     background: #c9c6c6;
     position: absolute;
-    
     display: none;
     border-radius: 5px;
     padding: 10px 40px;
 }
+
 
 nav ul li:hover ul.tour-dropdown {
     display: block;
@@ -345,6 +346,7 @@ nav ul li:hover ul.tour-dropdown {
     border: 1px solid transparent;
     border-radius: 0;
     text-transform: uppercase;
+    margin-right: 30px; 
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -376,70 +378,11 @@ nav ul li:hover ul.tour-dropdown {
     border-top: 4px solid #005fa7;
 }
 
-.dropdown-menu .active a {
-    color: #005fa7;
-    background-color: transparent;
-}
-
-.dropdown-menu .active a:hover {
-    color: #005fa7;
-    background-color: transparent;
-    border-top: 4px solid #005fa7;
-}
-
-.navbar-right .dropdown-menu {
-    right: auto;
-    left: 0;
-}
-
-.top-bar>li>a {
-    padding-top: 5px;
-    padding-bottom: 15px;
-    padding-left: 5px;
-    padding-right: 8px;
-    text-transform: capitalize;
-    font-size: 12px !important;
-}
-
-.top-bar>li>a:focus,
-.top-bar>li>a:hover {
-    color: #005fa7;
-    background-color: transparent;
-    border-top: 0 !important;
-}
-
-.dropdown-menu>li>a:focus,
-.dropdown-menu>li>a:hover {
-    color: #005fa7;
-    text-decoration: none;
-    background-color: #f5f5f5;
-    /*border-left: 4px solid #dc3135;*/
-}
-
-.dropdown-menu {
-    min-width: 270px;
-    background-color: #ffffff;
-    border: 0;
-    /*border-bottom: 4px solid #dc3135;*/
-    border-radius: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    -webkit-box-shadow: 0;
-    box-shadow: 0;
-}
-
-.dropdown-menu>li>a {
-    display: block;
-    padding: 7px 20px;
-    color: #777;
-    white-space: normal;
-    /*border-left: 4px solid #ffffff;*/
-    /* text-transform:uppercase; */
-}
-
 .main-slider {
+    margin-top: 90px;
     padding: 25px 0;
     background-image: url(../images/home-banner-bg.jpg);
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -448,7 +391,6 @@ nav ul li:hover ul.tour-dropdown {
 .carousel-control.left {
     background-image: none;
     top: 50%;
-
 }
 
 .carousel-control.right {
@@ -459,8 +401,6 @@ nav ul li:hover ul.tour-dropdown {
 
 .carousel-indicators li {
     border: 1px solid #ccc;
-
-
 }
 
 .carousel-indicators .active {
