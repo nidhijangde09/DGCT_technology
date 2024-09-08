@@ -294,8 +294,89 @@ a:focus {
 }
 
 /* header{border-bottom:5px solid #ccc;} */
+nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(112, 112, 112, 0.504);
+    height: 65px;
+    
+}
 
-.logo {
+nav .fa-solid {
+    display: none;
+}
+
+.fa-solid {
+    color: #000;
+}
+
+
+#sideMenu{
+    margin-right: 70px;
+    margin-left:-10px;
+    padding: 20px 2px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 1px 10px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.brand-name img {
+    height: 60px;
+    margin-left: 30px;
+    padding-bottom: 12px;
+}
+
+.tour-dropdown li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.tour-dropdown {
+    width: 10%;
+    background: #c9c6c6;
+    position: absolute;
+    display: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+nav ul li:hover ul.tour-dropdown {
+    display: block;
+}
+
+/*.logo {
     position: relative;
     bottom: 30px;
     margin-left: 40px;
@@ -376,10 +457,10 @@ nav ul li:hover ul.tour-dropdown {
     color: #005fa7;
     background-color: transparent;
     border-top: 4px solid #005fa7;
-}
+}*/
 
 .main-slider {
-    margin-top: 80px;
+    margin-top: 90px;
     padding: 25px 0;
     background-image: url(../images/home-banner-bg.jpg);
     position: relative;

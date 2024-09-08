@@ -79,81 +79,32 @@
 			//popover
 		</script>
 		<div class="row no-margin width-1600">
-			<div id="navbar">
-				<nav class="navbar navbar-default" role="navigation">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="index.html">
-							<img src="images/logo.png" class="logo" alt="DesignTech-Technology for designing the future" title="DesignTech-Technology for designing the future">
-						</a>
-					</div>
-
-					<div class="collapse navbar-collapse" id="navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="about-us.html">About Us</a></li>
-
-							<li class="dropdown">
-								<a href="CAx-Software-Development.html" class="dropdown-toggle" data-toggle="dropdown">CA<span style="text-transform: lowercase;">x</span> Software
-									Services <span class="caret"></span></a>
-
-								<ul class="dropdown-menu">
-									<li class="dropdown dropdown-submenu"><a href="CAx-Software-Development.html">CA<span
-												style="text-transform: lowercase;">x</span>
-											Software Development</a></a>
-										<ul class="dropdown-menu">
-											<li><a href="CAD&CAM-Development.html">CAD/CAM Development</a></li>
-											<li><a href="CAE-Development.html">CAE-Development</a></li>
-										</ul>
-									</li>
-									<li><a href="CAx-Software-QA&Testing.html">CA<span
-												style="text-transform: lowercase;">x</span>
-											Software QA & Testing </a></a>
-									</li>
-								</ul>
-							</li>
-							<li><a href="PLM.html">PLM </a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Engineering Design Services
-									<span class="caret"></span></a>
-
-								<ul class="dropdown-menu">
-									<li><a href="Product-Design.html">Product Design</a></li>
-									<li><a href="BIM-Modelling-Services.html">BIM Modelling Services</a></li>
-									<li><a href="Design-Yacht-Design-and-Marine-Engineering.html">Marine Engineering</a>
-									</li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Digitization Services <span
-										class="caret"></span></a>
-
-								<ul class="dropdown-menu">
-									<li><a href="Virtual-Manufacturing.html">Virtual Manufacturing</a></li>
-									<li><a href="Industrial-Internet-of-Things.html">Industrial Internet of Things</a>
-									</li>
-									<li><a href="Artificial-Intelligence-Solutions-and-Services.html">AI
-											Solutions & Services</a></li>
-
-									<li><a href="Enterprise-web&mobile-applications.html">Enterprise web & mobile
-											applications </a></li>
-									<li><a href="Augmented-Reality&Virtual-Reality-Apps.html">Augmented & Virtual Reality
-											Apps</a></li>
-								</ul>
-							</li>
-							<li><a href="carrer.html">Careers</a></li>
-							<li><a href="contact-us.html">Contact us</a></li>
-
-
+			<nav></nav>
+				<div class="brand-name">
+					<img src="./images/logo.png">
+				</div>
+				<ul id="sideMenu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about-us.html">About Us</a></li>
+					<li><a href="mobileapp.html">App development ▼</a>
+						<ul class="tour-dropdown">
+							<li><a href="iosapp.html">IOS App</a></li>
+							<li><a href="./beaches.html">Beaches</a></li>
 						</ul>
-					</div>
-					<!-- /.navbar-collapse -->
-				</nav>
+					</li>
+					<li><a href="it_consulting.html">It Consulting</a></li>
+					<li><a href="Business_Analytics.html">Business Analytics</a></li>
+					<li><a href="./login.html">Cloud Management</a></li>
+					<li><a href="Database-Development.html">Database Development</a></li>
+					<li><a href="SaaS.html">Saas</a></li>
+					<li><a href="carrer.html">Careers</a></li>
+					<li><a href="contact-us.html">Contact us</a></li>
+
+
+					<i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openMenu()"></i>
+			</nav>
 			</div>
 		</div>
 	</header>
