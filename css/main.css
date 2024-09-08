@@ -891,6 +891,7 @@ footer .has-error .help-block,
 .inner-banner {
     background-image: url(../images/inner-banner.jpg);
     background-repeat: no-repeat;
+    margin-top: 65px;
 }
 
 .carrer-page1 {
@@ -908,12 +909,15 @@ footer .has-error .help-block,
     line-height: 85px;
     margin: 0;
     text-align: center;
+    
 }
 
 .inner-banner-img {
     background-image: url(../images/inner-banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    margin-top: 10px;
 }
 
 .request-btn {
@@ -1570,6 +1574,7 @@ table td {
     .tag-line {
         font-size: 22px;
         line-height: 85px;
+        
     }
 }
 
@@ -1791,7 +1796,8 @@ table td {
     .tag-line {
         font-size: 20px;
         line-height: 25px;
-        padding-top: 25px;
+        padding-top: 55px;
+        
     }
 }
 
